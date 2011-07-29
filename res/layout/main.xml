@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ListView
+        android:id="@+id/StarredList" 
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@layout/rounded"
+        android:divider="@color/white"
+        android:layout_marginLeft="13dip"
+        android:layout_marginTop="13dip"
+        android:layout_marginRight="13dip"
+        android:layout_marginBottom="13dip"
+    />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+      <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    
+    </style>
+    <style name="MyAboutDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@color/about_background</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+    
+    
+</resources>

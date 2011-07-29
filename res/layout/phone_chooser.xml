@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+   
+    <TextView
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/phone_choose"
+        android:divider="@color/white"
+        android:text="@string/phone_chooser_text"
+        android:paddingRight="10px"
+        android:paddingLeft="10px"
+        android:paddingTop="10px"
+    />
+
+    <ListView
+    	android:id="@+id/phone_chooser_list" 
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10px"
+
+    />
+    
+    
+</LinearLayout>

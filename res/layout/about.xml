@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+
+    <TextView
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text"
+        android:paddingRight="10dip"
+        android:paddingLeft="10dip"
+        android:textColor="@color/about"
+    />
+      <TextView
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_donate"
+        android:gravity="center"
+        android:textColor="@color/donate"
+        android:paddingRight="10dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+    />
+        <TextView
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_url"
+        android:gravity="center"
+        android:textColor="@color/website"
+        android:paddingRight="10dip"
+        android:paddingLeft="10dip"
+        android:paddingBottom="10dip"
+    />
+    
+    <Button
+		android:id="@+id/about_ok_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:paddingRight="10dip"
+        android:paddingLeft="10dip"
+		android:text="@string/about_button"
+		 />
+
+
+</LinearLayout>

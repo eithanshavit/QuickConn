@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+
+   <ImageView android:id="@+id/contactImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:minWidth="40dip"
+    android:maxWidth="40dip"
+    android:adjustViewBounds="true"
+    android:cropToPadding="true"
+    android:layout_marginLeft="5dip"
+    android:layout_marginTop="3dip">
+    </ImageView>
+  
+
+    <TextView 
+  	android:text="@+id/contactEntryName"
+    android:id="@+id/contactEntryName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="28sp"
+    android:textColor="@color/list_entry"
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:minHeight="45dip"
+    android:maxWidth="165dip"
+    android:ellipsize="end"
+            android:singleLine="true"
+    />
+
+    <ImageView android:id="@+id/contactTxtImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:src="@drawable/txt"
+    android:layout_alignParentRight="true"
+    android:maxWidth="32dip"
+    android:adjustViewBounds="true"
+    android:cropToPadding="true"
+ 	android:layout_marginRight="5dip"
+ 	android:layout_marginTop="3dip"
+
+     />
+ 
+</RelativeLayout>

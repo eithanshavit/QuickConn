@@ -1,0 +1,12 @@
+<resources>
+<color name="white">#ffffffff</color>
+<color name="black">#ff000000</color>
+<color name="list_entry">#ffffffff</color>
+<color name="background_start">#1479cf</color>
+<color name="background_end">#06096e</color>
+<color name="about_background">#1479cf</color>
+<color name="donate">#ef2bfb</color>
+<color name="website">#ef2bfb</color>
+<color name="about">#ffffffff</color>
+<color name="phone_choose">#ffffffff</color>
+</resources>
