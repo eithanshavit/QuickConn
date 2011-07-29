@@ -37,7 +37,8 @@ import android.widget.Toast;
 
 // main activity, favorite contacts list
 public class quickconn extends Activity {
-
+	
+	// set log tag
 	public static final String TAG = "QuickConn";
 	private boolean FirstRun;
 	@Override
