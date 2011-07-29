@@ -42,7 +42,8 @@ public class quickconn extends Activity {
 	private boolean FirstRun;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-
+		
+		// log activity state
 		Log.d(TAG, "Activity State: onCreate()");
 		super.onCreate(null);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
