@@ -35,6 +35,7 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
+// main activity, favorite contacts list
 public class quickconn extends Activity {
 
 	public static final String TAG = "QuickConn";
